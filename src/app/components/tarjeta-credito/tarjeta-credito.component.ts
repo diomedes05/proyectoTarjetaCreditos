@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ToastrService } from 'ngx-toastr';
-import { TarjetaService } from 'src/app/services/tarjeta.service';
+import { TarjetaService } from '../../services/tarjeta.service';
 
 @Component({
   selector: 'app-tarjeta-credito',
