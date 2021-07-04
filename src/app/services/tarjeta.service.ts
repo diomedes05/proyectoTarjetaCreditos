@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class TarjetaService {
-  private myAppUrl = "https://localhost:44333/";
+  private myAppUrl = "https://apitarjetanetcore.herokuapp.com/";
   private myApiUrl = "api/Tarjeta/";
   constructor(private http: HttpClient) {
 
